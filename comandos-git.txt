@@ -1,0 +1,26 @@
+git - controle de versionamento 
+
+github - interface para o git e compartilha seu git!
+
+Aluno@PC117 MINGW64 ~/Desktop/projetoExpo -> // estamos dentro desta pasta
+
+git init - icializa o git (master)
+
+git add - Incluir o arquivo no mapeamento do repositório
+
+git add . - Inclui todos os arquivos do mapeamento
+
+git status - Apresenta se há arquivos e/ou mudanças que ainda não fazem parte de um registro na linha do tempo (commit)
+
+git commit - m "mensagem" -> Cria um nó na linha do tempo. Comentário que indica o contéudo da atualização.
+
+git config --<escopo> user.email "Seu email" -> Adiciona um email para manipular o repositório; Global e Local
+
+git config --<escopo> user.name "Seu nome" -> Adiciona um nome pra o usuário.
+
+git remote add origin "link do repositório remoto" Associa um repositório local a um remoto;
+
+gut push origin master -> Envia o conteúdo local para o repositório remoto;
+
+git pull -> Atualiza o repositório local com o conteúdo do repositório remoto.
+
